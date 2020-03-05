@@ -5,12 +5,4 @@ authors = ["Seldom"]
 edition = "2018"
 
 [dependencies]
-cairo-rs = "0.8.1"
-
-[dependencies.gtk]
-version = "0.8.0"
-features = ["v3_16"]
-
-[dependencies.gio]
-version = ""
-features = ["v2_44"]
+ggez = "0.5"
